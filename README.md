@@ -182,7 +182,6 @@
 <div class="container">
     <div class="header-flex">
         <div class="title-area">
-            <h1>Expenditure Sheet</h1>
             <div class="date-badge">Date: <span id="current-date"></span></div>
         </div>
         <div class="summary-box">
