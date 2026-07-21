@@ -195,7 +195,7 @@
                 <span id="total-expenses">0.00</span>
             </div>
             <div class="summary-row">
-                <span>Total Due:</span>
+                <span>Current Balance:</span>
                 <span id="total-due">10000.00</span>
             </div>
         </div>
@@ -205,7 +205,7 @@
         <button class="btn btn-save" onclick="saveData()">Save Changes</button>
         <div class="whatsapp-group">
             <button class="btn btn-whatsapp" onclick="sendWhatsApp()">Send to WhatsApp</button>
-            <input type="text" id="target-phone" class="phone-input" value="+91 9875320978" placeholder="Phone with country code">
+            <input type="text" id="target-phone" class="phone-input" value="+91 9163911923" placeholder="Phone with country code">
         </div>
         <button class="btn btn-print" onclick="window.print()">Print Page</button>
         <button class="btn btn-add" onclick="addRow()">+ Add Row</button>
@@ -363,7 +363,7 @@
         message += `--------------------------------\n`;
         message += `Opening Bal: Rs ${openBal}\n`;
         message += `Total Exp: Rs ${totExp}\n`;
-        message += `Total Due: Rs ${totDue}\n`;
+        message += `Current Balance: Rs ${totDue}\n`;
         message += `--------------------------------\n\n`;
         message += `*TRANSACTION DETAILS:*\n`;
 
